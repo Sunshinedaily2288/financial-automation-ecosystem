@@ -1,0 +1,16 @@
+@relation bank_fraud_detection
+
+@attribute transaction_amount numeric
+@attribute location_mismatch {YES, NO}
+@attribute account_age_months numeric
+@attribute is_fraud {FRAUD, LEGIT}
+
+@data
+4500.00, YES, 2, FRAUD
+25.50, NO, 48, LEGIT
+1200.00, YES, 1, FRAUD
+89.99, NO, 12, LEGIT
+15.00, NO, 24, LEGIT
+5000.00, YES, 6, FRAUD
+45.00, NO, 36, LEGIT
+3200.00, NO, 1, LEGIT
